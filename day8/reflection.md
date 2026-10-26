@@ -1,0 +1,9 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was understanding how to design a system that can handle high traffic while maintaining data consistency. I initially found it challenging to understand how load balancing, caching, database transactions, and horizontal scaling work together. I overcame this by studying practical examples, reviewing architecture diagrams, and breaking the system into smaller components. Designing TicketHub helped me understand why a system must protect critical operations, especially when many users attempt to purchase the same seat simultaneously.
+
+One part of my capstone I would improve is the database and booking design. I would strengthen the explanation of how reservations are created, how expired reservations are released, and how payment confirmation prevents duplicate tickets. I would also improve the architecture diagram to make communication between application servers, the database, the payment gateway, and background workers clearer. Based on the feedback I received, I would address the specific areas identified by my reviewer and improve the design accordingly.
+
+Next, I want to learn more about cloud computing, deployment, database optimization, and automated testing. I would also like to practise deploying applications using Docker and cloud platforms. These skills will help me understand how real-world applications are built, monitored, secured, and scaled to serve many users reliably.
+
+Overall, this course has improved my understanding of system design and taught me to consider requirements, performance, reliability, consistency, and trade-offs before choosing an architecture.
